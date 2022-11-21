@@ -7,8 +7,6 @@
 ## Technology
 * HTML5
 * CSS
-* javaScript
-* Bootstrap
 
 ## Service used
 * Github
