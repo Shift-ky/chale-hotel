@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff url(https://github.com/Shift-ky/imagens/blob/main/chale-hotel/bg.png?raw=true);
+    margin: 15px;
+}
+
+#container{
+    margin: 0 auto;
+    background: #ede9cc;
+    min-width: 740px;
+    max-width: 1180px;
+}
+#topo{
+    position: relative;
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+}
+#area-logo{
+    position: absolute;
+   background: url(https://github.com/Shift-ky/imagens/blob/main/chale-hotel/topo-imagem-principal.png?raw=true) no-repeat;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    text-indent: -3000px;
+ 
+}
+.logo a{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 1;
+    background: url(https://github.com/Shift-ky/imagens/blob/main/chale-hotel/logo.png?raw=true)no-repeat;
+    width: 151px;
+    height: 66px;
+}
+
+#area-menu{
+    background: url(https://github.com/Shift-ky/imagens/blob/main/chale-hotel/topo-imagem-lateral.png?raw=true) no-repeat;
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    
+}
